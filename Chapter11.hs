@@ -1,4 +1,4 @@
-Chapter 11
+
 
 -- HC11T1 - Greet the User
 -- Ask the user for their name, then print a greeting.
@@ -166,3 +166,4 @@ main = do
     input <- getLine
     let reversed = reverse input
     putStrLn ("Reversed: " ++ reversed)
+
